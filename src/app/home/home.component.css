@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  background-color: #E4CCA3;
+  margin-top: 0;
+}
+
+.flex-navi {
+  display: flex;
+}
+
+.navi-items {
+  font-size: 1.5em;
+  padding: 1em 1em !important;
+  color: white;
+  text-decoration: none;
+}
