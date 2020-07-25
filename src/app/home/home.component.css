@@ -1,16 +1,102 @@
 .header {
   width: 100%;
-  background-color: #E4CCA3;
+  background-color: rgba(255, 255, 255, 0);
   margin-top: 0;
 }
 
 .flex-navi {
   display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .navi-items {
   font-size: 1.5em;
-  padding: 1em 1em !important;
-  color: white;
+  color: #C2272D;
+  padding: 1em .5em !important;
+
   text-decoration: none;
+}
+
+.container {
+  background-image: url('/assets/img/llu2.png');
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  animation: slideIn 1.5s ease-in-out forwards;
+  /* width: 100px; */
+}
+
+.learn-more {
+  background-color: #E4CCA3;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.learn-more h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 6em;
+  padding: .8em .5em;
+  color: white;
+}
+
+.learn-more p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  padding: 1em;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  color: white;
+}
+
+.learn-more button {
+  background-color: #C2272D;
+  color: white;
+  border: 0;
+  padding: 1em;
+  width: 10em;
+  align-self: flex-end;
+  margin-right: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.wrapper-child {
+  position: relative;
+  height: 100vh;
+}
+
+.parralax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg-logo::after {
+  background-image: url('/assets/img/llu2.png');
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
 }
