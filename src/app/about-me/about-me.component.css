@@ -1,0 +1,15 @@
+.container h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 6em;
+  color: #C2272D;
+  padding: .8em .5em;
+}
+
+.container p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8em;
+  text-align: justify;
+  padding: 1em;
+  line-height: 1.5em;
+  color: #C2272D;
+}

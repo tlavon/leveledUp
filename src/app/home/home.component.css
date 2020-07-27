@@ -4,20 +4,6 @@
   margin-top: 0;
 }
 
-.flex-navi {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.navi-items {
-  font-size: 1.5em;
-  color: #C2272D;
-  padding: 1em .5em !important;
-
-  text-decoration: none;
-}
-
 .container {
   background-image: url('/assets/img/llu2.png');
   background-color: white;
@@ -64,6 +50,7 @@
   font-size: 1.5em;
   cursor: pointer;
 }
+
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
@@ -72,8 +59,8 @@
 }
 
 .wrapper-child {
-  position: relative;
   height: 100vh;
+  position: relative;
 }
 
 .parralax::after {

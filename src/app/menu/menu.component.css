@@ -1,0 +1,30 @@
+.menu {
+  color: #C2272D;
+  font-size: 3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.menu-open {
+  background-color: #E4CCA3;
+  height: 100vh;
+  transition: width 2s;
+}
+
+.flex-navi {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.navi-items {
+  font-size: 1.7em;
+  color: #C2272D;
+  padding: 1em .5em !important;
+  align-self: center;
+  font-family: 'Raleway', sans-serif;
+
+  text-decoration: none;
+}
