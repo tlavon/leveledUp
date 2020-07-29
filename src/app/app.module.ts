@@ -32,6 +32,6 @@ import { AboutMeComponent } from './about-me/about-me.component';
   ],
   entryComponents: [ HomeComponent ],
   providers: [],
-  bootstrap: [AppComponent, HomeComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
