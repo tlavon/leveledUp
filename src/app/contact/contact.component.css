@@ -5,3 +5,15 @@ h1 {
   padding-top: 1em;
   text-align: center;
 }
+
+.contact-footer {
+  display: flex;
+  background-color: rgba(194, 39, 45, 0.9);
+  height: 100px;
+}
+
+.contact-footer p {
+  font-family: 'Raleway', sans-serif;
+  align-self: center;
+  font-size: 2em;
+}

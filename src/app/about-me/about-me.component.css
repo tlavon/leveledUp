@@ -13,3 +13,14 @@
   line-height: 1.5em;
   color: #C2272D;
 }
+
+@media (max-width: 425px) {
+  .container h1 {
+    font-size: 4em;
+  }
+
+  .container p {
+    text-align: center;
+  }
+
+}
