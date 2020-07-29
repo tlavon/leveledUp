@@ -30,6 +30,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     MatListModule,
     MatIconModule,
   ],
+  entryComponents: [ HomeComponent ],
   providers: [],
   bootstrap: [AppComponent]
 })
